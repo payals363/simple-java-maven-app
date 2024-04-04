@@ -1,10 +1,5 @@
-pipeline {
-    agent any
-    stages {
-        stage('Build') { 
-            steps {
-                sh 'mvn -B -DskipTests clean package' 
-            }
-        }
-    }
-}
+git add
+
+git commit -m "Add initial Jenkinsfile"
+
+git push
